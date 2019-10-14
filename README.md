@@ -1,18 +1,22 @@
-# Barebone web project
+# Boilerplate - Node + Jade
 
 Tech:
 * Node.js
 * Jade engine for HTML rendering.
 
 
-First time:
+#### First time:
+
+Will install dependencies stated in the package.json file
 ```
-$ > npm install     # Will install dependencies stated in the package.json file
+$ npm install
 ```
 
-All the other times:
+#### All the other times:
+
+Start the Node.js Server, default is **127.0.0.1:3000**
 ```
-$ > npm start       # Start the Node.js Server, default is 127.0.0.1:3000.
+$ npm start 
 ```
 
 Run these commands in the Root directory of the project.
@@ -26,11 +30,9 @@ Run these commands in the Root directory of the project.
 ├── public
 │   ├── images
 │   ├── javascripts
-│   └── stylesheets         # Contains some css for reactive coding (Column division and @media)
+│   └── stylesheets
 ├── routes
 └── views
-    ├── error.jade          # Error renderer
-    └── layout.jade         # Dependencies (Stylesheet, scripts). Extend this to every Jade file.
 
 ```
 
